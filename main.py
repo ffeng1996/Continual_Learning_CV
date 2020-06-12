@@ -11,7 +11,7 @@ import time
 import pickle
 import torch
 from torch import optim
-
+import data
 from param_stamp import get_param_stamp, get_param_stamp_from_args
 import evaluate
 from lib.encoder import Classifier
